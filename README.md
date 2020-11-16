@@ -1,10 +1,10 @@
-# win10LTSC
+# 桌面运维自动化之win10LTSC
 win桌面运维的自动化相关
 
 桌面运维时的自动化相关笔记
 
 
-
+## NTLite
 
 ### Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
 
