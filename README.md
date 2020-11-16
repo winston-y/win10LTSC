@@ -19,7 +19,7 @@ win桌面运维的自动化相关
 
 
 
-```http
+```ed2k
 ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|
 ```
 
