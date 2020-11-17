@@ -1,12 +1,12 @@
-# 桌面运维自动化之win10LTSC
-win桌面运维的自动化相关
-
-桌面运维时的自动化相关笔记
+# 桌面运维自动化
+本项目是我在桌面运维工作中用到的自动化脚本。
 
 
-## NTLite
 
-### Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
+## 
+## 推荐的win10版本以及其他工具
+- NTLite
+- Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
 
 
 |              |                                                         |
