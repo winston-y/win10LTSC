@@ -2,6 +2,16 @@
 本项目是我在桌面运维工作中用到的自动化脚本。
 
 
+## file url
+
+
+
+
+
+|                   |                                                              |
+| ----------------- | ------------------------------------------------------------ |
+| **my_ninite.bat** | https://raw.githubusercontent.com/winston-y/win10init/main/my_ninite.bat |
+| **gen_init.bat**  | https://raw.githubusercontent.com/winston-y/win10init/main/gen_init.bat |
 
 ## 
 ## 推荐的win10版本以及其他工具
