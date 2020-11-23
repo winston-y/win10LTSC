@@ -2,7 +2,47 @@
 本项目是我在桌面运维工作中用到的自动化脚本。
 
 
+
+## Downloading Git
+
+```cmd
+curl -O https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe
+```
+
+
 ## file url
+
+
+
+
+
+# [Installing Chocolatey](https://chocolatey.org/docs/installation#more-install-options)
+
+
+
+#####  Install with cmd.exe
+
+```cmd
+
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+
+```
+
+```cmd
+netsh winhttp set proxy 192.168.1.18:7890
+netsh winhttp show proxy
+```
+
+
+
+#####  Install with PowerShell.exe
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+
 
 
 
