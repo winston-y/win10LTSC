@@ -1,4 +1,52 @@
+cls
+@ECHO off
+title HomeSchool
+color 0A
+:main
+::MODE con: COLS=73 lines=39
+MODE con: COLS=99 lines=50
 
+cls          
+echo.
+echo.
+echo.
+echo       ?????????????????????????????
+echo       ?                                                      ?
+echo       ?            ston?Win10?????             ?
+echo       ?                                                      ?
+echo       ?????????????????????????????
+echo                  ????%date% %time% 
+
+echo.	 
+echo.   
+echo.  
+echo.   
+echo.
+echo                                                         -- ston
+echo.
+echo.
+
+echo ????????????
+
+
+set /p UserSelection=	????????y/n??
+
+if "%UserSelection%"=="y" goto main1
+if "%UserSelection%"=="n" goto test
+
+:end
+goto :eof
+
+
+:test
+echo.
+echo.
+echo ???????
+echo.
+pause
+goto end
+
+:main1
 cd %~dp0
 mkdir D:\TECH & start D:\TECH
 
@@ -7,7 +55,8 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\
 
 xcopy /e/y/i/f .\initArchive\win10LTSC_64 D:\TECH
 
-
 choco config set proxy http://192.168.1.18:7890
 
 choco install -y 7zip vlc aimp opera notepadplusplus
+
+goto end
